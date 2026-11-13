@@ -1,0 +1,19 @@
+{
+ "entry_mode": "both",
+ "take_edge": 0.06,
+ "take_max_notional": 3000,
+ "max_risk_per_race": 8000,
+ "max_total_risk": 70000,
+ "max_daily_loss": 5000,
+ "model_thr": 0.02,
+ "model_hold_h": 24,
+ "entry_min_px": 0.1,
+ "entry_max_px": 0.9,
+ "lean_party": "",
+ "lean_extra": 0.02,
+ "election_mode": true,
+ "big_edge": 0.08,
+ "big_take_notional": 8000,
+ "big_risk_per_race": 16000,
+ "late_min_h": 24
+}

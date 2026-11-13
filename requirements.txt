@@ -1,0 +1,4 @@
+# the trading engine itself is standard library only; these are for the model, backtests and research
+numpy>=1.26
+pandas>=2.0
+scikit-learn>=1.3

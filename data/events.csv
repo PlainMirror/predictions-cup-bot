@@ -1,0 +1,18 @@
+start_et,duration_min,scope,severity,pre_hours,post_hours,name,source_note
+2026-10-12T20:00,90,governor:GA,1,2,2,GA governor Atlanta Press Club debate (Jackson declined; likely Bottoms only),Axios Atlanta 2026-10-06
+2026-10-13T07:00,600,governor:GA;senate:GA,1,0,12,Georgia in-person early voting begins (daily turnout data starts),georgia.gov
+2026-10-13T19:00,120,senate:ME,2,3,3,Maine Senate debate 3 of 4 (Collins vs Jackson) - time TBC,NBC/Inquirer 2026-10-09
+2026-10-13T20:00,120,senate:IA,2,3,3,Iowa Senate debate 2 (Hinson vs Turek) - time TBC,The Hill
+2026-10-14T08:30,60,control,1,1,2,CPI September 2026,BLS schedule
+2026-10-14T23:00,120,senate:AK;governor:AK,2,3,3,Alaska Debate for the State (Oct 14 or 15; which race on which night TBC; 7pm AKDT),Alaska Public Media
+2026-10-15T09:00,1440,ALL,1,2,12,FEC October quarterly reports due (Q3 fundraising headlines),FEC 2026 reporting dates
+2026-10-15T07:00,600,senate:NC;governor:NC,1,0,12,North Carolina early voting begins,NC voting guide (verify with NCSBE)
+2026-10-15T19:00,120,senate:ME,2,3,3,Maine Senate debate 4 of 4 - time TBC,NBC/Inquirer 2026-10-09
+2026-10-15T23:00,120,senate:AK;governor:AK,2,3,3,Alaska Debate for the State (Oct 14 or 15),Alaska Public Media
+2026-10-19T07:00,600,senate:TX;governor:TX,1,0,12,Texas early voting begins,Fox 7 Austin / county schedules
+2026-10-21T19:00,120,senate:MI,2,3,3,Michigan Senate debate 2 (Detroit) - time TBC,The Hill / NBC
+2026-10-21T20:00,90,senate:KS,2,3,3,Kansas Senate debate 7pm CT on Nexstar (announced as 'Tuesday Oct 21' but Oct 21 is a Wednesday - verify),Nexstar 2026-10-07
+2026-10-22T09:00,1440,ALL,1,2,12,FEC pre-general reports due (Oct 1-14 money),FEC 2026 reporting dates
+2026-10-28T14:00,90,control,1,1,2,FOMC rate decision + press conference,Federal Reserve calendar
+2026-10-29T08:30,60,control,1,1,2,GDP Q3 advance estimate,BEA schedule
+2026-11-03T17:00,1140,ALL,3,24,0,ELECTION NIGHT: polls close 6pm-1am ET; market making stops at the cutoff,state poll-closing times

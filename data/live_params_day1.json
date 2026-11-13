@@ -1,0 +1,7 @@
+{
+  "take_edge": 0.02,
+  "take_max_notional": 500,
+  "max_risk_per_race": 2500,
+  "max_total_risk": 10000,
+  "max_daily_loss": 1500
+}

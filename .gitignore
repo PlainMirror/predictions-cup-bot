@@ -1,0 +1,20 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+# recorded market data, logs and live state stay local
+data/*.sqlite*
+data/mm_logs/
+data/*.log
+data/kalshi_reference.json
+data/kalshi_hourly/
+data/mm_markets.json
+data/live_lots*.json
+data/en_state.json
+data/settlement_book.json
+data/go_live_status.json
+data/vol_forecasts.csv
+data/fills_features.csv
+data/STOP*
+data/EN_FREEZE
+reports/

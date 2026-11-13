@@ -1,0 +1,12 @@
+scope,reason
+AK,ranked-choice count Nov 18
+senate:ME,ranked choice if nobody tops 50% (1-2 weeks)
+house:ME,ranked choice if nobody tops 50% (1-2 weeks)
+senate:GA,runoff Dec 1 if nobody tops 50%
+governor:GA,runoff Dec 1 if nobody tops 50%
+house:LA,open primary; runoff Dec 12
+governor:VT,legislature picks if nobody tops 50%
+house:CA,slow count (1-3 weeks)
+AZ,slow count; automatic recount within 0.5%
+NV,slow count
+control,chamber control is settled by hand (days to weeks)

@@ -1,0 +1,4 @@
+office,place,party,fv,why
+# Your own fair values win over Kalshi. office = senate | governor | house | control. place = state code (TX), district (NY-17), or house/senate for control.
+# Example (delete the leading # to activate):
+#senate,NE,D,0.003,Osborn is an independent: a D-party contract should not pay if he wins - confirm in the market Info tab

@@ -1,0 +1,624 @@
+{
+ "source": "SYNTHETIC: last prices from public pages 2026-10-09; bid/ask faked as last -/+ 0.01; exchange ids fake",
+ "taken_at": "2026-10-09",
+ "tournament": {
+  "name": "Midterm Elections (synthetic)",
+  "myBalance": 100000
+ },
+ "markets": [
+  {
+   "id": "1",
+   "title": "Will the Democratic Party win the U.S. House?",
+   "status": "open",
+   "isMultiOutcome": false,
+   "exchanges": [
+    {
+     "id": "91",
+     "option": "YES",
+     "latestPrice": 0.89
+    }
+   ]
+  },
+  {
+   "id": "2",
+   "title": "Will the Republican Party win the U.S. Senate?",
+   "status": "open",
+   "isMultiOutcome": false,
+   "exchanges": [
+    {
+     "id": "92",
+     "option": "YES",
+     "latestPrice": 0.39
+    }
+   ]
+  },
+  {
+   "id": "3",
+   "title": "Will the Democratic Party win the Texas Senate?",
+   "status": "open",
+   "isMultiOutcome": false,
+   "exchanges": [
+    {
+     "id": "93",
+     "option": "YES",
+     "latestPrice": 0.62
+    }
+   ]
+  },
+  {
+   "id": "4",
+   "title": "Will the Democratic Party win the North Carolina Senate?",
+   "status": "open",
+   "isMultiOutcome": false,
+   "exchanges": [
+    {
+     "id": "94",
+     "option": "YES",
+     "latestPrice": 0.95
+    }
+   ]
+  },
+  {
+   "id": "5",
+   "title": "Will the Democratic Party win the Maine Senate?",
+   "status": "open",
+   "isMultiOutcome": false,
+   "exchanges": [
+    {
+     "id": "95",
+     "option": "YES",
+     "latestPrice": 0.6
+    }
+   ]
+  },
+  {
+   "id": "6",
+   "title": "Will the Republican Party win the Georgia Senate?",
+   "status": "open",
+   "isMultiOutcome": false,
+   "exchanges": [
+    {
+     "id": "96",
+     "option": "YES",
+     "latestPrice": 0.08
+    }
+   ]
+  },
+  {
+   "id": "7",
+   "title": "Will the Republican Party win the Arizona Governor?",
+   "status": "open",
+   "isMultiOutcome": false,
+   "exchanges": [
+    {
+     "id": "97",
+     "option": "YES",
+     "latestPrice": 0.14
+    }
+   ]
+  },
+  {
+   "id": "8",
+   "title": "Will the Democratic Party win the NY-17 House race?",
+   "status": "open",
+   "isMultiOutcome": false,
+   "exchanges": [
+    {
+     "id": "98",
+     "option": "YES",
+     "latestPrice": 0.62
+    }
+   ]
+  },
+  {
+   "id": "9",
+   "title": "Will the Democratic Party win the PA-07 House race?",
+   "status": "open",
+   "isMultiOutcome": false,
+   "exchanges": [
+    {
+     "id": "99",
+     "option": "YES",
+     "latestPrice": 0.86
+    }
+   ]
+  },
+  {
+   "id": "388",
+   "title": "Will the Republican Party win the Rhode Island Senate?",
+   "status": "open",
+   "isMultiOutcome": false,
+   "exchanges": [
+    {
+     "id": "9388",
+     "option": "YES",
+     "latestPrice": 0.18
+    }
+   ]
+  },
+  {
+   "id": "387",
+   "title": "Will the Democratic Party win the Rhode Island Senate?",
+   "status": "open",
+   "isMultiOutcome": false,
+   "exchanges": [
+    {
+     "id": "9387",
+     "option": "YES",
+     "latestPrice": 0.84
+    }
+   ]
+  },
+  {
+   "id": "386",
+   "title": "Will the Republican Party win the Delaware Senate?",
+   "status": "open",
+   "isMultiOutcome": false,
+   "exchanges": [
+    {
+     "id": "9386",
+     "option": "YES",
+     "latestPrice": 0.11
+    }
+   ]
+  },
+  {
+   "id": "385",
+   "title": "Will the Republican Party win the Rhode Island Governor?",
+   "status": "open",
+   "isMultiOutcome": false,
+   "exchanges": [
+    {
+     "id": "9385",
+     "option": "YES",
+     "latestPrice": 0.12
+    }
+   ]
+  },
+  {
+   "id": "384",
+   "title": "Will the Democratic Party win the Rhode Island Governor?",
+   "status": "open",
+   "isMultiOutcome": false,
+   "exchanges": [
+    {
+     "id": "9384",
+     "option": "YES",
+     "latestPrice": 0.92
+    }
+   ]
+  },
+  {
+   "id": "383",
+   "title": "Will the Democratic Party win the Oklahoma Senate?",
+   "status": "open",
+   "isMultiOutcome": false,
+   "exchanges": [
+    {
+     "id": "9383",
+     "option": "YES",
+     "latestPrice": 0.13
+    }
+   ]
+  },
+  {
+   "id": "382",
+   "title": "Will the Republican Party win the New Hampshire Senate?",
+   "status": "open",
+   "isMultiOutcome": false,
+   "exchanges": [
+    {
+     "id": "9382",
+     "option": "YES",
+     "latestPrice": 0.14
+    }
+   ]
+  },
+  {
+   "id": "381",
+   "title": "Will the Democratic Party win the New Hampshire Senate?",
+   "status": "open",
+   "isMultiOutcome": false,
+   "exchanges": [
+    {
+     "id": "9381",
+     "option": "YES",
+     "latestPrice": 0.88
+    }
+   ]
+  },
+  {
+   "id": "380",
+   "title": "Will the Republican Party win the Massachusetts Senate?",
+   "status": "open",
+   "isMultiOutcome": false,
+   "exchanges": [
+    {
+     "id": "9380",
+     "option": "YES",
+     "latestPrice": 0.12
+    }
+   ]
+  },
+  {
+   "id": "379",
+   "title": "Will the Democratic Party win the Massachusetts Senate?",
+   "status": "open",
+   "isMultiOutcome": false,
+   "exchanges": [
+    {
+     "id": "9379",
+     "option": "YES",
+     "latestPrice": 0.94
+    }
+   ]
+  },
+  {
+   "id": "378",
+   "title": "Will the Republican Party win the Alaska Senate?",
+   "status": "open",
+   "isMultiOutcome": false,
+   "exchanges": [
+    {
+     "id": "9378",
+     "option": "YES",
+     "latestPrice": 0.32
+    }
+   ]
+  },
+  {
+   "id": "377",
+   "title": "Will the Democratic Party win the Alaska Senate?",
+   "status": "open",
+   "isMultiOutcome": false,
+   "exchanges": [
+    {
+     "id": "9377",
+     "option": "YES",
+     "latestPrice": 0.72
+    }
+   ]
+  },
+  {
+   "id": "376",
+   "title": "Will the Republican Party win the NH-01 House race?",
+   "status": "open",
+   "isMultiOutcome": false,
+   "exchanges": [
+    {
+     "id": "9376",
+     "option": "YES",
+     "latestPrice": 0.09
+    }
+   ]
+  },
+  {
+   "id": "375",
+   "title": "Will the Democratic Party win the NH-01 House race?",
+   "status": "open",
+   "isMultiOutcome": false,
+   "exchanges": [
+    {
+     "id": "9375",
+     "option": "YES",
+     "latestPrice": 0.94
+    }
+   ]
+  },
+  {
+   "id": "374",
+   "title": "Will the Republican Party win the Oklahoma Governor?",
+   "status": "open",
+   "isMultiOutcome": false,
+   "exchanges": [
+    {
+     "id": "9374",
+     "option": "YES",
+     "latestPrice": 0.9
+    }
+   ]
+  },
+  {
+   "id": "373",
+   "title": "Will the Republican Party win the New Hampshire Governor?",
+   "status": "open",
+   "isMultiOutcome": false,
+   "exchanges": [
+    {
+     "id": "9373",
+     "option": "YES",
+     "latestPrice": 0.9
+    }
+   ]
+  },
+  {
+   "id": "372",
+   "title": "Will the Democratic Party win the New Hampshire Governor?",
+   "status": "open",
+   "isMultiOutcome": false,
+   "exchanges": [
+    {
+     "id": "9372",
+     "option": "YES",
+     "latestPrice": 0.14
+    }
+   ]
+  },
+  {
+   "id": "371",
+   "title": "Will the Republican Party win the Massachusetts Governor?",
+   "status": "open",
+   "isMultiOutcome": false,
+   "exchanges": [
+    {
+     "id": "9371",
+     "option": "YES",
+     "latestPrice": 0.08
+    }
+   ]
+  },
+  {
+   "id": "370",
+   "title": "Will the Democratic Party win the Massachusetts Governor?",
+   "status": "open",
+   "isMultiOutcome": false,
+   "exchanges": [
+    {
+     "id": "9370",
+     "option": "YES",
+     "latestPrice": 0.91
+    }
+   ]
+  },
+  {
+   "id": "369",
+   "title": "Will the Republican Party win the Alaska Governor?",
+   "status": "open",
+   "isMultiOutcome": false,
+   "exchanges": [
+    {
+     "id": "9369",
+     "option": "YES",
+     "latestPrice": 0.26
+    }
+   ]
+  }
+ ],
+ "prices": {
+  "91": {
+   "exchangeId": "91",
+   "marketId": "1",
+   "latestPrice": 0.89,
+   "bestBid": 0.88,
+   "bestAsk": 0.9,
+   "spread": 0.02
+  },
+  "92": {
+   "exchangeId": "92",
+   "marketId": "2",
+   "latestPrice": 0.39,
+   "bestBid": 0.38,
+   "bestAsk": 0.4,
+   "spread": 0.02
+  },
+  "93": {
+   "exchangeId": "93",
+   "marketId": "3",
+   "latestPrice": 0.62,
+   "bestBid": 0.61,
+   "bestAsk": 0.63,
+   "spread": 0.02
+  },
+  "94": {
+   "exchangeId": "94",
+   "marketId": "4",
+   "latestPrice": 0.95,
+   "bestBid": 0.94,
+   "bestAsk": 0.96,
+   "spread": 0.02
+  },
+  "95": {
+   "exchangeId": "95",
+   "marketId": "5",
+   "latestPrice": 0.6,
+   "bestBid": 0.59,
+   "bestAsk": 0.61,
+   "spread": 0.02
+  },
+  "96": {
+   "exchangeId": "96",
+   "marketId": "6",
+   "latestPrice": 0.08,
+   "bestBid": 0.07,
+   "bestAsk": 0.09,
+   "spread": 0.02
+  },
+  "97": {
+   "exchangeId": "97",
+   "marketId": "7",
+   "latestPrice": 0.14,
+   "bestBid": 0.13,
+   "bestAsk": 0.15,
+   "spread": 0.02
+  },
+  "98": {
+   "exchangeId": "98",
+   "marketId": "8",
+   "latestPrice": 0.62,
+   "bestBid": 0.61,
+   "bestAsk": 0.63,
+   "spread": 0.02
+  },
+  "99": {
+   "exchangeId": "99",
+   "marketId": "9",
+   "latestPrice": 0.86,
+   "bestBid": 0.85,
+   "bestAsk": 0.87,
+   "spread": 0.02
+  },
+  "9388": {
+   "exchangeId": "9388",
+   "marketId": "388",
+   "latestPrice": 0.18,
+   "bestBid": 0.17,
+   "bestAsk": 0.19,
+   "spread": 0.02
+  },
+  "9387": {
+   "exchangeId": "9387",
+   "marketId": "387",
+   "latestPrice": 0.84,
+   "bestBid": 0.83,
+   "bestAsk": 0.85,
+   "spread": 0.02
+  },
+  "9386": {
+   "exchangeId": "9386",
+   "marketId": "386",
+   "latestPrice": 0.11,
+   "bestBid": 0.1,
+   "bestAsk": 0.12,
+   "spread": 0.02
+  },
+  "9385": {
+   "exchangeId": "9385",
+   "marketId": "385",
+   "latestPrice": 0.12,
+   "bestBid": 0.11,
+   "bestAsk": 0.13,
+   "spread": 0.02
+  },
+  "9384": {
+   "exchangeId": "9384",
+   "marketId": "384",
+   "latestPrice": 0.92,
+   "bestBid": 0.91,
+   "bestAsk": 0.93,
+   "spread": 0.02
+  },
+  "9383": {
+   "exchangeId": "9383",
+   "marketId": "383",
+   "latestPrice": 0.13,
+   "bestBid": 0.12,
+   "bestAsk": 0.14,
+   "spread": 0.02
+  },
+  "9382": {
+   "exchangeId": "9382",
+   "marketId": "382",
+   "latestPrice": 0.14,
+   "bestBid": 0.13,
+   "bestAsk": 0.15,
+   "spread": 0.02
+  },
+  "9381": {
+   "exchangeId": "9381",
+   "marketId": "381",
+   "latestPrice": 0.88,
+   "bestBid": 0.87,
+   "bestAsk": 0.89,
+   "spread": 0.02
+  },
+  "9380": {
+   "exchangeId": "9380",
+   "marketId": "380",
+   "latestPrice": 0.12,
+   "bestBid": 0.11,
+   "bestAsk": 0.13,
+   "spread": 0.02
+  },
+  "9379": {
+   "exchangeId": "9379",
+   "marketId": "379",
+   "latestPrice": 0.94,
+   "bestBid": 0.93,
+   "bestAsk": 0.95,
+   "spread": 0.02
+  },
+  "9378": {
+   "exchangeId": "9378",
+   "marketId": "378",
+   "latestPrice": 0.32,
+   "bestBid": 0.31,
+   "bestAsk": 0.33,
+   "spread": 0.02
+  },
+  "9377": {
+   "exchangeId": "9377",
+   "marketId": "377",
+   "latestPrice": 0.72,
+   "bestBid": 0.71,
+   "bestAsk": 0.73,
+   "spread": 0.02
+  },
+  "9376": {
+   "exchangeId": "9376",
+   "marketId": "376",
+   "latestPrice": 0.09,
+   "bestBid": 0.08,
+   "bestAsk": 0.1,
+   "spread": 0.02
+  },
+  "9375": {
+   "exchangeId": "9375",
+   "marketId": "375",
+   "latestPrice": 0.94,
+   "bestBid": 0.93,
+   "bestAsk": 0.95,
+   "spread": 0.02
+  },
+  "9374": {
+   "exchangeId": "9374",
+   "marketId": "374",
+   "latestPrice": 0.9,
+   "bestBid": 0.89,
+   "bestAsk": 0.91,
+   "spread": 0.02
+  },
+  "9373": {
+   "exchangeId": "9373",
+   "marketId": "373",
+   "latestPrice": 0.9,
+   "bestBid": 0.89,
+   "bestAsk": 0.91,
+   "spread": 0.02
+  },
+  "9372": {
+   "exchangeId": "9372",
+   "marketId": "372",
+   "latestPrice": 0.14,
+   "bestBid": 0.13,
+   "bestAsk": 0.15,
+   "spread": 0.02
+  },
+  "9371": {
+   "exchangeId": "9371",
+   "marketId": "371",
+   "latestPrice": 0.08,
+   "bestBid": 0.07,
+   "bestAsk": 0.09,
+   "spread": 0.02
+  },
+  "9370": {
+   "exchangeId": "9370",
+   "marketId": "370",
+   "latestPrice": 0.91,
+   "bestBid": 0.9,
+   "bestAsk": 0.92,
+   "spread": 0.02
+  },
+  "9369": {
+   "exchangeId": "9369",
+   "marketId": "369",
+   "latestPrice": 0.26,
+   "bestBid": 0.25,
+   "bestAsk": 0.27,
+   "spread": 0.02
+  }
+ },
+ "constraints": {
+  "data": []
+ }
+}
