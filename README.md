@@ -33,13 +33,50 @@ mm/engine.py, every few seconds
 | 6 to 8c | 361 | +3.59c | 92% |
 | 8 to 10c | 13 | +3.42c | 100% |
 
-A replay of every contest trade (`research/policy_grid.py`) agreed: lower thresholds add trades that don't pay, and an 8c threshold made about the same money with a quarter of the entries.
+![Live ledger](docs/figures/ledger.png)
 
-**Market making** (`mm/quoter.py`, paper only). An Avellaneda-Stoikov quoter leans its quotes away from inventory, widens around scheduled events and sudden Kalshi moves, and pulls quotes during debates. It was simulated, never run live.
+The exit route mattered too: lots that hit their resting target made +3.8c a share (86% of shares won, median hold 86 hours), while lots that ran into the 120-hour time stop made +0.6c.
+
+A replay of every contest trade from October 10 to 22 through the engine's exit logic (`research/policy_grid.py`, 70k budget) agreed:
+
+| Policy | P&L | Entries |
+|---|---|---|
+| live settings (6c edge, exit gliding 70% to 30%) | 11,202 | 3,176 |
+| exit gliding to 0% instead | 11,515 | 3,440 |
+| no time stop | 10,172 | 2,238 |
+| 5c edge | 6,741 | 4,655 |
+| 8c edge | 11,890 | 829 |
+| fair value band 0.05 to 0.95 | 8,277 | 3,831 |
+
+So on October 22 the threshold stayed at 6c, gaps of 8c or more were sized up to 8k a take and 16k a race, and the exit glide moved to 0%.
+
+**The contest model** (`contest_model.py`) is a ridge regression of each contract's next-24-hour price move on its gap to Kalshi, how far that gap is from its 24 and 72-hour averages, the mismatch between the two parties' contracts in the same race, and short-term momentum. Walk-forward it made +0.5c per trade at about a 60% hit rate; live it was roughly flat (+230 over 118 exits).
+
+**Market making** (`mm/quoter.py`, paper only). An Avellaneda-Stoikov quoter:
+- leans its reservation price away from inventory;
+- widens the half-spread with volatility and around scheduled events, and doubles it for 10 minutes after any sudden 2c Kalshi move;
+- pulls quotes during debates.
+
+It was simulated, never run live, and the result depends on who else is in the book:
+
+| 48-hour paper run (`run_mm.py --paper`) | P&L | Fills | Edge at fill |
+|---|---|---|---|
+| against a tight house market maker | +625 | 130 | +0.81c a share |
+| books priced only by students | +35,644 | 8,579 | +1.28c a share |
+
+The second number rests on an assumed student order flow that couldn't be measured well, which is why the quoter never went live.
 
 **Election night** (`mm/election.py`). From 5 pm ET:
 - A race became eligible only once its state's polls closed.
-- Races were tiered by Kalshi's fair value (called, leaning, open), each tier with its own edge and risk cap.
+- Races were tiered by Kalshi's fair value, held 60 to 120 seconds so one tick couldn't trigger anything:
+
+  | Tier | Kalshi fair value | Required edge | Risk cap |
+  |---|---|---|---|
+  | called | 0.97 or more | 3c + Kalshi's half-spread | 30% of the 5 pm account value |
+  | leaning | 0.85 to 0.97 | 6c + half-spread | 10% |
+  | open | below 0.85 | 8c + half-spread | 5% |
+
+  Edges doubled in slow-counting races.
 - Called winners could be sold to fund better takes.
 - A reversal breaker blocked any race whose called side fell back.
 
